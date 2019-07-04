@@ -1,0 +1,31 @@
+{
+  "name": "question_12",
+  "version": "1.0.0",
+  "description": "test flex contact project",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivamgf/Test_Flex.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "ivam galvao filho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivamgf/Test_Flex/issues"
+  },
+  "homepage": "https://github.com/ivamgf/Test_Flex#readme",
+  "dependencies": {
+    "npx": "^10.2.0",
+    "sass": "^1.19.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "sass": "^1.19.0"
+  }
+}

@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap 4 Example</title>
+  <title>Modelo de Grid</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.scss">
+  <link type="text/css" rel="stylesheet" href="/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <script src="main.js"></script>
+  
+  <!-- Imports script JS -->
+  <script>
+    var imported = document.createElement('script');
+    imported.src = '/main.js';
+    document.head.appendChild(imported);
+  </script>
+  <!-- Imports script JS -->
 </head>
 <body>
 
-<div class="container">
-  <h1>My First Bootstrap Page</h1>
-  <p>This is some text.</p> 
-</div>
+  <section>
+    <!-- html render tag -->
+    <div class="container style-model" id="model"></div> 
+    <!-- html render tag -->
+  </section>
 
 </body>
 </html>

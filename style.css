@@ -30,18 +30,30 @@
 }
 .style-body-1 {
     text-align: center;
-    position: relative;
-    top: 40%;
+    position: relative;    
+    background-color: rgb(0, 0, 255);
 }
 .style-body-2 {
     text-align: center;
     position: relative;
-    top: 40%;
+    background-image: linear-gradient(to right, rgb(0, 0, 255) , rgb(255, 0, 0));
 }
 .style-body-3 {
     text-align: center;
     position: relative;
+    background-image: url("/assets/images/mountain.jpg");    
+}
+.item {
+    text-align: center;
+    color: rgb(241, 247, 247);
+    position: relative;
     top: 40%;
+}
+.item-3 {
+    text-align: center;
+    color: rgb(15, 15, 15);
+    position: relative;
+    top: 40%;  
 }
 @media only screen and (max-width: 1200px) and (min-width: 992px) {
     .style-general {
@@ -121,4 +133,29 @@
         margin: 2%;
     }
 }
-@media only screen and (max-width: 576px) {}
+@media only screen and (max-width: 576px) {
+    .style-general {
+        width: 100%;
+        margin: 0px;
+        position: relative;
+        float: center;
+    }
+    .style-model {
+        padding: 2%;  
+    }
+    .style-item-1 {
+        width: 220px;
+        height: 464px;
+        margin: 2%;
+    }
+    .style-item-2 {
+        width: 220px;
+        height: 230px;
+        margin: 2%;
+    }
+    .style-item-3 {
+        width: 220px;
+        height: 230px;
+        margin: 2%;
+    }
+}

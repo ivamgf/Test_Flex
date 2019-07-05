@@ -10,8 +10,9 @@ var template;
 //Global Variables
 
 //onInit
-console.log(declaration);
+
 //Methods JS
+console.log(declaration);
 render();
 //Methods JS
 
@@ -22,15 +23,21 @@ function render() {
     template = `<div class="row style-general">
                     <div class="style-card-1">
                         <div class="card style-item-1">
-                            <div class="card-body style-body-1">Item 1</div>
+                            <div class="card-body style-body-1">
+                                <span class="item">Item 1</span>
+                            </div>
                         </div>
                     </div>
                     <div class="style-card-2">
                         <div class="card style-item-2">
-                            <div class="card-body style-body-2">Item 2</div>
+                            <div class="card-body style-body-2">
+                                <span class="item">Item 2</span>
+                            </div>
                         </div>
                         <div class="card style-item-3">
-                            <div class="card-body style-body-3">Item 3</div>
+                            <div class="card-body style-body-3">
+                                <span class="item-3">Item 3</span>
+                            </div>
                         </div>
                     </div>
                 <div>`;

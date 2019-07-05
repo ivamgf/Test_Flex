@@ -1,7 +1,162 @@
 //Styles Sass
 .style-general {
-    padding: 5%;
+    width: 100%;
+    margin: 0px;
+    position: relative;
+    float: center;
 }
-.row {
-    padding: 5%;
+.style-model {
+    padding: 2%;  
+}
+.style-card-1 {
+    padding: 1%;
+}
+.style-card-2 {
+    padding: 1%;  
+}
+.style-item-1 {
+    width: 500px;
+    height: 470px;
+    margin: 2%;    
+}
+.style-item-2 {
+    width: 500px;
+    height: 230px;
+    margin: 2%;
+}
+.style-item-3 {
+    width: 500px;
+    height: 230px;
+    margin: 2%;
+}
+.style-body-1 {
+    text-align: center;
+    position: relative;    
+    background-color: rgb(0, 0, 255);
+}
+.style-body-2 {
+    text-align: center;
+    position: relative;
+    background-image: linear-gradient(to right, rgb(0, 0, 255) , rgb(255, 0, 0));
+}
+.style-body-3 {
+    text-align: center;
+    position: relative;
+    background-image: url("/assets/images/mountain.jpg");    
+}
+.item {
+    text-align: center;
+    color: rgb(241, 247, 247);
+    position: relative;
+    top: 40%;
+}
+.item-3 {
+    text-align: center;
+    color: rgb(15, 15, 15);
+    position: relative;
+    top: 40%;  
+}
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+    .style-general {
+        width: 100%;
+        margin: 0px;
+        position: relative;
+        float: center;
+    }
+    .style-model {
+        padding: 2%;  
+    }
+    .style-item-1 {
+        width: 400px;
+        height: 470px;
+        margin: 2%;
+    }
+    .style-item-2 {
+        width: 400px;
+        height: 230px;
+        margin: 2%;
+    }
+    .style-item-3 {
+        width: 400px;
+        height: 230px;
+        margin: 2%;
+    }
+}
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+    .style-general {
+        width: 100%;
+        margin: 0px;
+        position: relative;
+        float: center;
+    }
+    .style-model {
+        padding: 2%;  
+    }
+    .style-item-1 {
+        width: 300px;
+        height: 465px;
+        margin: 2%;
+    }
+    .style-item-2 {
+        width: 300px;
+        height: 230px;
+        margin: 2%;
+    }
+    .style-item-3 {
+        width: 300px;
+        height: 230px;
+        margin: 2%;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+    .style-general {
+        width: 100%;
+        margin: 0px;
+        position: relative;
+        float: center;
+    }
+    .style-model {
+        padding: 2%;  
+    }
+    .style-item-1 {
+        width: 220px;
+        height: 464px;
+        margin: 2%;
+    }
+    .style-item-2 {
+        width: 220px;
+        height: 230px;
+        margin: 2%;
+    }
+    .style-item-3 {
+        width: 220px;
+        height: 230px;
+        margin: 2%;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .style-general {
+        width: 100%;
+        margin: 0px;
+        position: relative;
+        float: center;
+    }
+    .style-model {
+        padding: 2%;  
+    }
+    .style-item-1 {
+        width: 220px;
+        height: 464px;
+        margin: 2%;
+    }
+    .style-item-2 {
+        width: 220px;
+        height: 230px;
+        margin: 2%;
+    }
+    .style-item-3 {
+        width: 220px;
+        height: 230px;
+        margin: 2%;
+    }
 }

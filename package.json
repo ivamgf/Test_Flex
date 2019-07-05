@@ -20,12 +20,12 @@
   },
   "homepage": "https://github.com/ivamgf/Test_Flex#readme",
   "dependencies": {
-    "npx": "^10.2.0",
-    "sass": "^1.19.0"
+    "gulp-sass": "^4.0.2",
+    "npx": "^10.2.0"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
-    "sass": "^1.19.0"
+    "sass": "^1.22.3"
   }
 }

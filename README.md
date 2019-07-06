@@ -21,6 +21,9 @@ Obs.: Utilize de preferência a IDE Visual Studio Code.
 Utilize as seguintes referências abaixo para instruções de instalação e documentação,
 
 https://www.browsersync.io/
+
 https://code.visualstudio.com/download
+
 https://gulpjs.com/
+
 https://sass-lang.com/

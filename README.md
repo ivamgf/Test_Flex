@@ -15,6 +15,8 @@ Para rodar a aplicação é necessário seguir as seguintes instruções:
 
 1.4.BrowserSync.
 
+1.5. Você também pode usar o comando npm install para instalar todas as dependências contidas no package.json.
+
 2.No terminal da IDE utilizada digite o código:
 
 2.1. gulp serve
